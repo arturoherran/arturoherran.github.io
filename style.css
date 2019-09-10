@@ -18,7 +18,7 @@ html {
 
 #banner {
     height: 40rem;
-    background-image: url("./images/banner2.JPG");
+    background-image: url("banner2.JPG");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
