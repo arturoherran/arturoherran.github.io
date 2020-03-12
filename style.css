@@ -6,18 +6,13 @@ html {
   }
   
   body {
-    background-color: navajowhite;
+    background-color: black;
   }
-  
-  p {
-    min-width: 30%;
-    min-height: auto;
-  }
-  
+    
 /*banner styling */
 
-#banner {
-    height: 40rem;
+.jumbotron-fluid {
+    /* height: 40rem; */
     background-image: url("./images/banner2.JPG");
     background-position: center;
     background-size: cover;
@@ -30,65 +25,42 @@ html {
 
 h1  {
     font-size: 5rem;
-    font-weight: bold;
-    color: khaki;
+    color:#f0f1cb;
     text-align: center;
     vertical-align: center;
-    max-height: 100%;
 }
+
+.jumbotron-fluid p {
+  color: white;
+  font-size: 2rem;
+}
+
 
 /*content styling*/
 
-#content {
-    font-size: 1rem;
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container-sm {
+  width: 70%;
+  color: #ddebe4;
 }
 
-#content p {
-    width: 60%;
-}
+.btn {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem; 
 
-#categories {
-    width: 100%;
 }
 
 
-h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: black;
+/* Modal styling */
+
+.modal-content {
+  color:#4f252f;
+  text-align: center;
 }
 
-li {
-    font-size: 1.2em;
-    color: #999999;
-    display: inline-block;
-    margin: 1rem;
-    width: 16%;
-    text-align: center;
-  }
-
-  li:hover {
-    font-size: 1.4em;
-    color: #990;
-  }
-
-  @media only screen and (max-width: 480px) {
-    li{
-      display: block;
-      text-align: center;
-      width: 100%;
-      height: auto;    
-      
-    }
-  }
 
 
-  /*footer styling*/
+/*footer styling*/
 
   #contact {
     padding: 1rem 0;	
