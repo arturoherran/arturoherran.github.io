@@ -38,6 +38,7 @@ h1  {
 
 /*content styling*/
 
+
 .container-sm {
   width: 70%;
   color: #ddebe4;
@@ -50,6 +51,11 @@ h1  {
 
 }
 
+.row {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
 
 /* Modal styling */
 
@@ -58,13 +64,33 @@ h1  {
   text-align: center;
 }
 
+.modal-body {
+  text-align: justify;
+}
+
+#resume {
+  margin: 1.5rem;
+}
+
+#trans-seasonal {
+  /* color: rgb(235, 68, 250); */
+  color: rgb(235, 68, 250);
+  text-shadow: 0.1rem 0.1rem  #f0f1cb;
+  font-weight: bold;
+}
+
+#myGit {
+  color: black;
+  font-weight: bold;
+}
+
 
 
 /*footer styling*/
 
   #contact {
-    padding: 1rem 0;	
-    border-top: 1px solid #999999;
+    padding: 0.5rem 0;	
+    border-top: 1px solid #f0f1cb;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -74,13 +100,13 @@ h1  {
 
   #contact img {
     display: inline-block;
-    height: 3rem;
+    height: 2.5rem;
     width: auto;
     margin: 1rem;
   }
 
   #contact img:hover {
-    height: 3.2rem;
+    height: 2.6rem;
     width: auto;
     margin: 1rem;
   }
